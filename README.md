@@ -19,7 +19,9 @@ Before you begin, make sure you have the following installed and configured:
 
 ## ⚙️ Installation
 
-Clone this repository into your `catkin_ws/src` folder and build all packages.
+
+
+Clone this repository into your `catkin_ws/src` folder.
 
 ```bash
 # Navigate to your catkin workspace
@@ -27,6 +29,14 @@ cd ~/catkin_ws/src
 
 # Clone the repository
 git clone https://github.com/etfrobotics/VGN_rb_demo.git
+
+
+```
+Change into the VGN_rb_demo/vgn and install the vgn environment as described here: `https://github.com/nruzic45/vgn`. 
+
+Now build the packages in your workspace:
+
+```bash
 
 # Go back to the workspace root
 cd ~/catkin_ws
@@ -37,6 +47,20 @@ catkin build
 # Source the workspace
 source ~/catkin_ws/devel/setup.bash
 ```
+
+Activate the vgn python environment:
+
+```bash
+
+# Go to the vgn directory
+cd ~/catkin_ws/src/VGN_rb_demo/vgn
+
+# Source the environment
+source .venv/bin/activate
+
+
+```
+
 
 ## 🚀 Running the demo
 
