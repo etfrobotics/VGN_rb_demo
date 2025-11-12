@@ -13,6 +13,7 @@ Before you begin, make sure you have the following installed and configured:
 - **ROS (Noetic)** with a working **Catkin workspace**
 - **MoveIt!** installed and properly configured
 - **Franka Control Interface (FCI)** activated and reachable on your local network
+- **Realsense camera** connected and reachable on your local network
 
 ---
 
