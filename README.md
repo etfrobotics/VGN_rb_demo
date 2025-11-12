@@ -32,7 +32,7 @@ git clone https://github.com/etfrobotics/VGN_rb_demo.git
 
 
 ```
-Change into the VGN_rb_demo/vgn and install the vgn environment as described here: `https://github.com/nruzic45/vgn`. 
+Change into the VGN_rb_demo/vgn and install the vgn environment as described here: [link](https://github.com/nruzic45/vgn). 
 
 Now build the packages in your workspace:
 
